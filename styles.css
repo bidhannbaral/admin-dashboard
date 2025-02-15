@@ -195,6 +195,7 @@ h1 {
     column-gap: 10%;
     flex-wrap: wrap;
     row-gap: 4%;
+    column-gap: 5%;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6 {
@@ -203,8 +204,7 @@ h1 {
     background-color: white;
     padding: 36px;
     border-radius: 30px;
-    border-left-width: 3px;
-    border-left-color: orange;
+    border-left: 5px solid orange;
 }
 
 #right-top {
@@ -247,9 +247,5 @@ span {
  #text1, #text2, #text3, #text4 {
 
     display: grid;
-}
-
-.boxps {
-
 }
 
